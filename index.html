@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jovinas</title>
+    <meta name="title" content="Jovinas">
+    <link rel="icon" type="image/png" href="media/iconojv.png" />
+    <!-- Metadatos Genéricos -->
+    <meta name="Jovinas" content="*Jovinas*">
+    <meta name="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Schema.org for Google -->
+    <meta itemprop="name" content="Jovinas">
+    <meta itemprop="description" content="Jovinas">
+    <meta itemprop="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Jovinas">
+    <meta name="twitter:description" content="Jovinas">
+    <meta name="twitter:image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+    <meta name="og:title" content="Jovinas">
+    <meta name="og:description" content="Jovinas">
+    <meta name="og:image" content="*cambiar por una URL de la imagen en línea*">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>JOVINAS</h1>
+            <h2>Proyectos colaborativos & independientes</h2>
+        </header>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="media/aloop2.mp4" type="video/mp4">
+        </video>
+
+        <h3>¿QUIÉNES SOMOS?</h3>
+        <div id="¿QUIÉNES SOMOS?">
+
+            <div class="dupla primera">
+                <h4>JOSEFA OLIVARES ROZAS <address><a href="mailto:jdolivares@uc.cl">jdolivares@uc.cl</a></address> </h4>
+                <h5>Soy una Diseñadora Multidiciplinaria.
+                Textil, de experiencias, espacios y jardines, iluminación o branding, todo se puede resolver de diversas maneras.
+                Actualmente estoy a cargo de Comunicaciones en el Centro Juvenil Cazadores Chile.</h5>
+
+
+            </div>
+
+            <div class="dupla segunda">
+                <h4>IGNACIA VERA BOZAN   <address><a href="mailto:idvera@uc.cl">idvera@uc.cl</a></address> </h4>
+                <h5>Soy Estudiante de diseño
+Integral, con conocimientos en texitles, iluminación y branding. Actualmente trabajo en una tienda de venta de textil.</h5>
+
+
+            </div>
+
+            <hr />
+        </div><!-- acá cerramos el div id="somos"-->
+
+        <h3>PORTAFOLIO</h3>
+
+        <div id="portafolio">
+
+            <!--acá se colocan y organizan las cosas con programación-->
+
+        </div><!-- acá cerramos el div id="portafolio"-->
+
+        <footer>
+            <p>Procesos de Producción · sección web · primer semestre · 2019</p>
+        </footer>
+
+    </div><!-- acá abajo cerramos el div id="contenido"-->
+
+    <!-- Lo que sigue SI es PROGRAMACIÓN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
